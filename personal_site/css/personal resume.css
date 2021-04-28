@@ -1,0 +1,258 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: rgba(174,185,130,1.00);
+
+}
+
+header{
+	height: 10%;
+	width: 100%;
+	background-color: rgba(113,113,113,0.46);
+	overflow: auto;
+}
+
+li{
+	font-size: small;
+	list-style: none;
+	margin-bottom: 79px;
+	padding-bottom: 35px;
+	margin-top: -39px;
+}
+
+p{
+	margin-left: -4px;
+	padding-left: 5%;
+	height: 0%;
+	width: 122%;
+	margin-top: 1px;
+}
+
+.name{
+	color: rgba(255,255,255,1.00);
+	font-size: 362%;
+	margin-top: 0%;
+	margin-left: 2px;
+}
+.email{
+	color: rgba(255,255,255,1.00);
+	font-size: 20px;
+}
+.school{
+	color: rgba(255,255,255,1.00);
+	text-decoration: none;
+	font-size: 21px;
+}
+main{
+	margin-top: 8px;
+	margin-right: 32px;
+	margin-bottom: 32px;
+	margin-left: 32px;
+	font-size: 2em;
+}
+
+.introduction{
+	font-size: 133%;
+	font-family: "Times New Roman";
+	color: rgba(255,255,255,1.00);
+	margin-top: 7px;
+}
+
+s{
+	text-decoration: none;
+	font-family: "Times New Roman";
+	font-size: 110%;
+	color: rgba(255,255,255,1.00);
+}
+
+.SKILLS{
+	margin-top: 83px;
+	margin-left: -1px;
+	background-image: url(../image/guitar3.png);
+	font-size: 2em;
+	text-align: center;
+}
+.SKILLS:hover{
+	color: rgba(112,112,112,1.00);
+	font-size: 2.5em;
+}
+.STATEMENT{
+	color: rgba(255,255,255,1.00);
+	font-size: 3em;
+	text-align: center;
+}
+
+
+.INTERESTS{
+	margin-top: 86px;
+	margin-left: -2px;
+	color: rgba(255,255,255,1.00);
+	font-size: 2em;
+	text-align: center;
+}
+.INTERESTS:hover{
+	color: rgba(66,66,66,1.00);
+	font-size: 2.5em;
+}
+.artical{
+	font-size: 24px;
+	color: rgba(255,255,255,1.00);
+
+}
+
+@keyframes slideDown {
+    0% {
+        opacity:0;
+        transform:translateY(-300px);
+    }
+    100%{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+
+.menuBar{
+	animation: slideDown 0.75s ease both;
+}
+
+.menuBar a{
+	float: right;
+	margin-left: 48px;
+	font-size: 205%;
+	font-weight: bold;
+}
+
+
+@keyframes slideInLeft{
+	0% {
+		opacity:0;
+		transform:translateX(-300px);
+	}
+	100%{
+		opacity:1;
+		transform:translateX(0)
+	}
+}
+
+.feature {
+	height: 100%;
+	overflow: hidden;
+	animation: slideInLeft 0.75s ease both;
+	font-size: 3em;
+	margin-left: -64px;
+	padding-top: 0px;
+}
+
+
+
+@keyframes slideInRight{
+	0% {
+		opacity:0;
+		transform:translateX(300px);
+	}
+	100%{
+		opacity:1;
+		transform:translateX(0)
+	}
+}
+
+.statement {
+	animation: slideInRight 0.75s ease both 0.75s;
+	margin-top: -47px;
+}
+
+
+@keyframes slideUp {
+    0% {
+        opacity:0;
+        transform:translateY(300px);
+    }
+    100%{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+.SKILLS{
+	opacity:0;
+	width:auto;
+}
+
+.SKILLS a {
+	color:white;
+}
+
+.INTERESTS{
+	opacity:0;
+	width:auto;
+}
+
+.INTERESTS a {
+	color:white;
+}
+
+.foot{
+	opacity:0;
+}
+
+.foot a{
+	margin-left: 10%;
+	margin-right: 10%;
+	color: rgba(255,255,255,1.00);
+	font-size: 21px;
+}
+
+.PICTURE{
+	opacity: 0;
+	font-size: 3em;
+	margin-left: 17%;
+}
+
+.PICTURE1{
+	opacity: 0;
+}
+
+.PICTURE2{
+	opacity: 0;
+}
+
+.SKILLS.animated {
+	animation: slideUp 0.75s ease forwards 0.75s;
+}
+
+.INTERESTS.animated {
+	animation: slideUp 0.75s ease forwards 0.75s;
+}
+
+.foot.animated{
+	animation: slideUp 0.75s ease forwards 0.75s;
+}
+
+.PICTURE.animated{
+	animation: slideUp 0.5s ease forwards 0.5s;
+}
+
+.PICTURE1.animated{
+	animation: slideUp 0.5s ease forwards 0.5s;
+}
+
+.PICTURE2.animated{
+	animation: slideUp 0.5s ease forwards 0.5s;
+}
+
+
+.nav:hover{
+	background-color: dimgray;
+	color: rgba(255,255,255,1.00);
+	/* text-shadow: 0px 30px; */
+}
+
+a{
+	text-decoration: none;
+	color: rgba(0,0,0,1.00);
+}
+
+
+
